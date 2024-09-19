@@ -1,0 +1,65 @@
+.content_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown_input_container {
+    flex: 1;
+    padding: 0.3rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem
+}
+
+.result_container {
+    color: #c2cd01;
+}
+
+.input_container {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.select_input_ion {
+    border-style: solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 1rem;
+}
+
+.input_ion {
+    border-bottom-style: solid;
+    margin-top: 0.5rem;
+    border-color: white;
+    border-radius: 0.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.60rem;
+    background-color: #cdcdcd;
+    color: black
+}
+
+.input_ion:disabled {
+    opacity: 0.4;
+}
+
+.input_ion:placeholder-shown{
+    background-color: rgb(40, 38, 38);
+    color:rgb(223, 193, 154)
+}
